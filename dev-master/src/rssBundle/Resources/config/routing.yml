@@ -1,0 +1,3 @@
+rss_homepage:
+    path:     /
+    defaults: { _controller: rssBundle:Default:index }
