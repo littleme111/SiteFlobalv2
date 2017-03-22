@@ -7,8 +7,12 @@
         <link rel="stylesheet" href="{{ asset('css/main.css') }}">
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
     </head>
+    <div class="page">
+        <div class="content">
     <body>
         {% block body %}{% endblock %}
         {% block javascripts %}{% endblock %}
+        </div>
     </body>
+    </div>
 </html>
