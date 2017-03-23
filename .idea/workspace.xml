@@ -2,19 +2,83 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cae4296d-a876-4e01-92d5-cb1dd6fb0b95" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dev-master/tests/AppBundle/Controller/DefaultControllerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dev-master/tests/rssBundle/Controller/DefaultControllerTest.php" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev-master/src/loginBundle/Controller/DefaultController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev-master/src/loginBundle/Resources/config/routing.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev-master/src/loginBundle/Resources/config/services.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev-master/src/loginBundle/Resources/views/Default/index.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev-master/src/loginBundle/loginBundle.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/composer.json" afterPath="$PROJECT_DIR$/dev-master/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/composer.lock" afterPath="$PROJECT_DIR$/dev-master/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/app/AppKernel.php" afterPath="$PROJECT_DIR$/dev-master/app/AppKernel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/app/config/config.yml" afterPath="$PROJECT_DIR$/dev-master/app/config/config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/app/config/routing.yml" afterPath="$PROJECT_DIR$/dev-master/app/config/routing.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/src/rssBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/dev-master/src/rssBundle/Controller/DefaultController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/src/rssBundle/Resources/config/routing.yml" afterPath="$PROJECT_DIR$/dev-master/src/rssBundle/Resources/config/routing.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/src/rssBundle/Resources/views/Default/index.html.twig" afterPath="$PROJECT_DIR$/dev-master/src/rssBundle/Resources/views/Default/index.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/vendor/composer/autoload_files.php" afterPath="$PROJECT_DIR$/dev-master/vendor/composer/autoload_files.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/dev-master/vendor/composer/autoload_psr4.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/dev-master/vendor/composer/autoload_static.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/dev-master/vendor/composer/installed.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/web/app.php" afterPath="$PROJECT_DIR$/dev-master/web/app.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/dev/annotations.map" afterPath="$PROJECT_DIR$/dev-master/var/cache/dev/annotations.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/dev/appDevDebugProjectContainer.php" afterPath="$PROJECT_DIR$/dev-master/var/cache/dev/appDevDebugProjectContainer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/dev/appDevDebugProjectContainer.php.meta" afterPath="$PROJECT_DIR$/dev-master/var/cache/dev/appDevDebugProjectContainer.php.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/dev/appDevDebugProjectContainer.xml" afterPath="$PROJECT_DIR$/dev-master/var/cache/dev/appDevDebugProjectContainer.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/dev/appDevDebugProjectContainerCompiler.log" afterPath="$PROJECT_DIR$/dev-master/var/cache/dev/appDevDebugProjectContainerCompiler.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/dev/appDevDebugProjectContainerUrlGenerator.php" afterPath="$PROJECT_DIR$/dev-master/var/cache/dev/appDevDebugProjectContainerUrlGenerator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/dev/appDevDebugProjectContainerUrlGenerator.php.meta" afterPath="$PROJECT_DIR$/dev-master/var/cache/dev/appDevDebugProjectContainerUrlGenerator.php.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/dev/appDevDebugProjectContainerUrlMatcher.php" afterPath="$PROJECT_DIR$/dev-master/var/cache/dev/appDevDebugProjectContainerUrlMatcher.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/dev/appDevDebugProjectContainerUrlMatcher.php.meta" afterPath="$PROJECT_DIR$/dev-master/var/cache/dev/appDevDebugProjectContainerUrlMatcher.php.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/dev/classes.map" afterPath="$PROJECT_DIR$/dev-master/var/cache/dev/classes.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/dev/classes.php" afterPath="$PROJECT_DIR$/dev-master/var/cache/dev/classes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/dev/classes.php.meta" afterPath="$PROJECT_DIR$/dev-master/var/cache/dev/classes.php.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/dev/profiler/index.csv" afterPath="$PROJECT_DIR$/dev-master/var/cache/dev/profiler/index.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/01/016a29ee5a3c9231a18909cbcebdbfbdedd987d229117ee13725a1f1114e8d50.php" afterPath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/01/016a29ee5a3c9231a18909cbcebdbfbdedd987d229117ee13725a1f1114e8d50.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/04/04b549f147962003ae78fffc132aff7611db0491c4c9169a7366d5424402669d.php" afterPath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/04/04b549f147962003ae78fffc132aff7611db0491c4c9169a7366d5424402669d.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/07/074ab1becc73e5d9198ba4ec9a828e0108e88e58ffc39309285791ad31160e56.php" afterPath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/07/074ab1becc73e5d9198ba4ec9a828e0108e88e58ffc39309285791ad31160e56.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/09/09c63808996902965234a969f48f203915edf3f172a3e9d6761978b0c2a6e34a.php" afterPath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/09/09c63808996902965234a969f48f203915edf3f172a3e9d6761978b0c2a6e34a.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/12/12516216f9c2c2b80d5263fb73dc3d1d90b77d6732089ad948c162e140bbc9d4.php" afterPath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/12/12516216f9c2c2b80d5263fb73dc3d1d90b77d6732089ad948c162e140bbc9d4.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/12/12c4347a7c4b61dd712fce3e3705c05a48d650019392691d6b39c65f59300f86.php" afterPath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/12/12c4347a7c4b61dd712fce3e3705c05a48d650019392691d6b39c65f59300f86.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/19/199b8c49131dcdbd49addc0ce0eddb15e6170bb1ae2e9a17da61ea03d4ff6c2b.php" afterPath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/19/199b8c49131dcdbd49addc0ce0eddb15e6170bb1ae2e9a17da61ea03d4ff6c2b.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/1b/1bb475cb6727c18a5b0316165678993f8b14c43d5339d22c095a3dbbc82487b8.php" afterPath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/1b/1bb475cb6727c18a5b0316165678993f8b14c43d5339d22c095a3dbbc82487b8.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/20/2069e3409552fa43e30264c0a2a629a46aafc20c4376b68bfae61a38cc4e25d8.php" afterPath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/20/2069e3409552fa43e30264c0a2a629a46aafc20c4376b68bfae61a38cc4e25d8.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/24/24440ca31f29662a6184aef86efd14872e158a902df350b7a1fa279911b7d18a.php" afterPath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/24/24440ca31f29662a6184aef86efd14872e158a902df350b7a1fa279911b7d18a.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/2c/2c7520862522aa882377019194ba40184c5018d706883858f75164d1e9ea8d69.php" afterPath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/2c/2c7520862522aa882377019194ba40184c5018d706883858f75164d1e9ea8d69.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/34/34e4a029c47fe4ffa81d611fc11b8f32703970b6e288b6d16eaa34ce5ab62833.php" afterPath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/34/34e4a029c47fe4ffa81d611fc11b8f32703970b6e288b6d16eaa34ce5ab62833.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/3c/3cde868430ed8b8fd5e86493983e8f4c11d6298ad71f1a1a381cd64fd0763bd0.php" afterPath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/3c/3cde868430ed8b8fd5e86493983e8f4c11d6298ad71f1a1a381cd64fd0763bd0.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/3f/3fc79afaca3ab9a6902cdecaec932d5e9e625f7d7c9b18be105981a52032758d.php" afterPath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/3f/3fc79afaca3ab9a6902cdecaec932d5e9e625f7d7c9b18be105981a52032758d.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/42/427c361ac337f99a8dd5bf547618a7bbd621e1575be5abba8b3f95c48691968f.php" afterPath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/42/427c361ac337f99a8dd5bf547618a7bbd621e1575be5abba8b3f95c48691968f.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/47/4749fdf0848adca1a428012430d4e3023a831d1f4a8e3d8312dcd3731b52704c.php" afterPath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/47/4749fdf0848adca1a428012430d4e3023a831d1f4a8e3d8312dcd3731b52704c.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/49/49df302efd4e8288aa927c818fe0c970385472e0a3ca8096a56d7def753378ad.php" afterPath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/49/49df302efd4e8288aa927c818fe0c970385472e0a3ca8096a56d7def753378ad.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/61/617180d091ea8d43d0ce76d00ffe564a8e51e520037a0999573f7f886f197794.php" afterPath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/61/617180d091ea8d43d0ce76d00ffe564a8e51e520037a0999573f7f886f197794.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/79/79ec246d453086f4781f5f452511e5f7d7c94f3c48057210f51d553628af4e11.php" afterPath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/79/79ec246d453086f4781f5f452511e5f7d7c94f3c48057210f51d553628af4e11.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/90/90a4e3177930c234c285149cf27003e26bf6f6a3128b9e904977a4ff65fd6518.php" afterPath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/90/90a4e3177930c234c285149cf27003e26bf6f6a3128b9e904977a4ff65fd6518.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/94/94491fc207f50bb367d19be6b3be1981f63b02d809abac1d81eb10c7193f070c.php" afterPath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/94/94491fc207f50bb367d19be6b3be1981f63b02d809abac1d81eb10c7193f070c.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/9f/9f84ee80aa9f7da96f41c256a3c5aa30f69078e114a72fafcd8f086b001c1cad.php" afterPath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/9f/9f84ee80aa9f7da96f41c256a3c5aa30f69078e114a72fafcd8f086b001c1cad.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/a2/a297ea1ac92fd3860082ba08a1bb7da2bcbb108ab36175345f25b824e4bf5ed5.php" afterPath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/a2/a297ea1ac92fd3860082ba08a1bb7da2bcbb108ab36175345f25b824e4bf5ed5.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/a3/a31d94938f3b34e5626b5510c6a0865bf96583f0f65adea20f2124b4ea8e3e24.php" afterPath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/a3/a31d94938f3b34e5626b5510c6a0865bf96583f0f65adea20f2124b4ea8e3e24.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/a3/a36533948992f4eb41da76bbfc4b72a7c56e87dc879f4d3e271b73510af26c7c.php" afterPath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/a3/a36533948992f4eb41da76bbfc4b72a7c56e87dc879f4d3e271b73510af26c7c.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/ad/ad4313a69c9d8dcd28e78dedc48ff3a7efde3129b6c5781f61253f0b51bfd0bf.php" afterPath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/ad/ad4313a69c9d8dcd28e78dedc48ff3a7efde3129b6c5781f61253f0b51bfd0bf.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/af/af97f0f64019f71d344516834d0178904d0c1cb448a9e87c6746443b1371426a.php" afterPath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/af/af97f0f64019f71d344516834d0178904d0c1cb448a9e87c6746443b1371426a.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/b5/b5bbee42df8ba971ce60f0a5351d84ae6068fd5e20a68da7d53837b4b988362d.php" afterPath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/b5/b5bbee42df8ba971ce60f0a5351d84ae6068fd5e20a68da7d53837b4b988362d.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/b7/b7890394f707cabbe019c244a9db0c4032c9d03f9c9901264440eb3e3c4d0f1e.php" afterPath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/b7/b7890394f707cabbe019c244a9db0c4032c9d03f9c9901264440eb3e3c4d0f1e.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/bb/bba73a0ad4a8060d05d1e66637cb934311b647f179beb9cc9464f96336beaf3c.php" afterPath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/bb/bba73a0ad4a8060d05d1e66637cb934311b647f179beb9cc9464f96336beaf3c.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/bc/bc22b31da5f5a2261dc416ec1e315a7de0ce50a5d2f9b0fe744431eba8c8ecdb.php" afterPath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/bc/bc22b31da5f5a2261dc416ec1e315a7de0ce50a5d2f9b0fe744431eba8c8ecdb.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/bf/bfb7fd0a67b4fbbb81fc1b4b88dd97963d5ece425138b9b7c4a3504bef95a79c.php" afterPath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/bf/bfb7fd0a67b4fbbb81fc1b4b88dd97963d5ece425138b9b7c4a3504bef95a79c.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/cb/cbcceb83b20011a1640c4be5163659bfc87c427cc2c7b5cb504ff11cd0dea06e.php" afterPath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/cb/cbcceb83b20011a1640c4be5163659bfc87c427cc2c7b5cb504ff11cd0dea06e.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/d1/d1439d4eb46235cc14ba55a1c001c5d3d0d65b656a48693107d6bf50dfe6dc5e.php" afterPath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/d1/d1439d4eb46235cc14ba55a1c001c5d3d0d65b656a48693107d6bf50dfe6dc5e.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/d6/d6109e11223e3ca49f3778e294577a0b2822039cf73addc2ca0071b958d8b2d5.php" afterPath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/d6/d6109e11223e3ca49f3778e294577a0b2822039cf73addc2ca0071b958d8b2d5.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/e5/e5eef91389833e2ada463ec5b0fd8acb9c1f2ac68d0db881c4ee81967510a4c8.php" afterPath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/e5/e5eef91389833e2ada463ec5b0fd8acb9c1f2ac68d0db881c4ee81967510a4c8.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/f0/f040ea70d6be1669570aa256b94af3c42fd33f76f315d9050c7ac028974868e8.php" afterPath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/f0/f040ea70d6be1669570aa256b94af3c42fd33f76f315d9050c7ac028974868e8.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/f0/f09e8a50a1dacbb4eef322a06b74dd167046141dd0e11c0c2612dc1c60c5924e.php" afterPath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/f0/f09e8a50a1dacbb4eef322a06b74dd167046141dd0e11c0c2612dc1c60c5924e.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/f5/f50a5066720082e8cfa6771d68f859ac9cea9e31701abaf84fac93b62a0d1de5.php" afterPath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/f5/f50a5066720082e8cfa6771d68f859ac9cea9e31701abaf84fac93b62a0d1de5.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/f7/f79409bf2d668219d833db55e59a8e1ba350853399ad4fd491abcb21d5d9094c.php" afterPath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/f7/f79409bf2d668219d833db55e59a8e1ba350853399ad4fd491abcb21d5d9094c.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/f8/f8b12d04c43c74f608d21c87ea65f2666c9328cb635fd4c83a5e903a8c472c57.php" afterPath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/f8/f8b12d04c43c74f608d21c87ea65f2666c9328cb635fd4c83a5e903a8c472c57.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/fa/fa25694837a61a763918e985605ffe65eaf2b7c474973566c912b668da5bf8b5.php" afterPath="$PROJECT_DIR$/dev-master/var/cache/dev/twig/fa/fa25694837a61a763918e985605ffe65eaf2b7c474973566c912b668da5bf8b5.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/prod/annotations.map" afterPath="$PROJECT_DIR$/dev-master/var/cache/prod/annotations.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/prod/appProdDebugProjectContainer.php" afterPath="$PROJECT_DIR$/dev-master/var/cache/prod/appProdDebugProjectContainer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/prod/appProdDebugProjectContainer.php.meta" afterPath="$PROJECT_DIR$/dev-master/var/cache/prod/appProdDebugProjectContainer.php.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/prod/appProdDebugProjectContainer.xml" afterPath="$PROJECT_DIR$/dev-master/var/cache/prod/appProdDebugProjectContainer.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/prod/appProdDebugProjectContainerCompiler.log" afterPath="$PROJECT_DIR$/dev-master/var/cache/prod/appProdDebugProjectContainerCompiler.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/prod/appProdDebugProjectContainerUrlMatcher.php" afterPath="$PROJECT_DIR$/dev-master/var/cache/prod/appProdDebugProjectContainerUrlMatcher.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/prod/appProdDebugProjectContainerUrlMatcher.php.meta" afterPath="$PROJECT_DIR$/dev-master/var/cache/prod/appProdDebugProjectContainerUrlMatcher.php.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/prod/classes.map" afterPath="$PROJECT_DIR$/dev-master/var/cache/prod/classes.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/prod/classes.php" afterPath="$PROJECT_DIR$/dev-master/var/cache/prod/classes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/cache/prod/classes.php.meta" afterPath="$PROJECT_DIR$/dev-master/var/cache/prod/classes.php.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev-master/var/logs/dev.log" afterPath="$PROJECT_DIR$/dev-master/var/logs/dev.log" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,65 +104,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="rssBundle.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev-master/src/rssBundle/rssBundle.php">
+      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev-master/src/loginBundle/Resources/views/Default/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="238">
+              <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dev-master/src/rssBundle/Controller/DefaultController.php">
+        <entry file="file://$PROJECT_DIR$/dev-master/src/loginBundle/Controller/DefaultController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="29" column="88" lean-forward="false" selection-start-line="29" selection-start-column="88" selection-end-line="29" selection-end-column="88" />
+            <state relative-caret-position="498">
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding>
-                <element signature="e#40#85#0#PHP" expanded="true" />
-                <element signature="e#733#768#0#PHP" expanded="true" />
+                <element signature="e#44#101#0#PHP" expanded="true" />
+                <element signature="e#1087#1124#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routing.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev-master/src/rssBundle/Resources/config/routing.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app_dev.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev-master/web/app_dev.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="services.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev-master/src/rssBundle/Resources/config/services.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev-master/src/rssBundle/Resources/views/Default/index.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -106,21 +130,38 @@
     </leaf>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Florian" />
+      </list>
+    </option>
+    <option name="UPDATE_CHANGES_POLICY" value="SHELVE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/dev-master/tests/rssBundle/Controller/DefaultControllerTest.php" />
-        <option value="$PROJECT_DIR$/dev-master/src/rssBundle/Resources/views/Default/index.html.twig" />
         <option value="$PROJECT_DIR$/dev-master/src/rssBundle/Resources/config/routing.yml" />
         <option value="$PROJECT_DIR$/dev-master/web/app.php" />
         <option value="$PROJECT_DIR$/dev-master/src/rssBundle/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/dev-master/src/rssBundle/Resources/views/Default/index.html.twig" />
+        <option value="$PROJECT_DIR$/dev-master/app/Resources/views/base.html.twig" />
+        <option value="$PROJECT_DIR$/dev-master/src/rssBundle/rssBundle.php" />
+        <option value="$PROJECT_DIR$/dev-master/src/loginBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/dev-master/src/loginBundle/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/dev-master/src/loginBundle/Resources/views/Default/index.html.twig" />
       </list>
     </option>
   </component>
@@ -135,7 +176,7 @@
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -153,6 +194,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -211,6 +253,28 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SiteFlobal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SiteFlobal" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dev-master" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -262,6 +326,14 @@
               <option name="myItemId" value="Resources" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Default" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -288,8 +360,26 @@
               <option name="myItemId" value="Resources" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="SiteFlobal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SiteFlobal" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dev-master" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loginBundle" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -311,7 +401,67 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="rssBundle" />
+              <option name="myItemId" value="loginBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Default" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SiteFlobal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SiteFlobal" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dev-master" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loginBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SiteFlobal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SiteFlobal" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dev-master" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loginBundle" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -337,22 +487,82 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SiteFlobal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SiteFlobal" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dev-master" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SiteFlobal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SiteFlobal" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dev-master" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="settings.editor.selected.configurable" value="Symfony.ProfilerSettingsForm" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\stagiaire\Desktop\www\SiteFlobal\dev-master\web\css" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
@@ -424,6 +634,8 @@
       <updated>1490106041576</updated>
       <workItem from="1490106046950" duration="339000" />
       <workItem from="1490106414163" duration="3041000" />
+      <workItem from="1490167193409" duration="6639000" />
+      <workItem from="1490193597893" duration="3232000" />
     </task>
     <task id="LOCAL-00001" summary="2nd commit&#10;">
       <created>1490106719927</created>
@@ -432,11 +644,25 @@
       <option name="project" value="LOCAL" />
       <updated>1490106719927</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add css&#10;&#10;">
+      <created>1490169749231</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1490169749231</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add css&#10;&#10;">
+      <created>1490171034461</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1490171034461</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3380000" />
+    <option name="totallyTimeSpent" value="13251000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -448,96 +674,107 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25266525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19189766" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32883817" sideWeight="0.5021322" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2614108" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32883817" sideWeight="0.4978678" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32883817" sideWeight="0.5021322" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2614108" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32883817" sideWeight="0.4978678" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19189766" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2nd commit&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="2nd commit&#10;" />
+    <MESSAGE value="add css&#10;&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="add css&#10;&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dev-master/tests/rssBundle/Controller/DefaultControllerTest.php">
+    <entry file="file://$PROJECT_DIR$/dev-master/src/loginBundle/Resources/views/Default/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="170">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev-master/tests/rssBundle/Controller/DefaultControllerTest.php">
+    <entry file="file://$PROJECT_DIR$/dev-master/src/loginBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="884">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="e#44#101#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev-master/app/AppKernel.php">
+    <entry file="file://$PROJECT_DIR$/dev-master/src/loginBundle/Resources/config/routing.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90">
-          <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev-master/src/AppBundle/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev-master/src/AppBundle/AppBundle.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev-master/src/rssBundle/Resources/views/Default/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev-master/src/rssBundle/Resources/config/services.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="34">
+          <caret line="1" column="24" lean-forward="false" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -550,11 +787,78 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dev-master/src/rssBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev-master/src/rssBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev-master/web/app_dev.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev-master/src/rssBundle/Resources/config/services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev-master/src/rssBundle/Resources/views/Default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev-master/tests/rssBundle/Controller/DefaultControllerTest.php" />
+    <entry file="file://$PROJECT_DIR$/dev-master/tests/rssBundle/Controller/DefaultControllerTest.php" />
+    <entry file="file://$PROJECT_DIR$/dev-master/app/AppKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev-master/src/AppBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev-master/src/AppBundle/AppBundle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dev-master/web/app.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev-master/src/rssBundle/Resources/config/services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -568,19 +872,101 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dev-master/src/rssBundle/Resources/config/routing.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
+        <state relative-caret-position="102">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="185" column="13" lean-forward="true" selection-start-line="185" selection-start-column="13" selection-end-line="185" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../balthazar/project/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev-master/app/Resources/views/default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev-master/src/rssBundle/rssBundle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dev-master/src/rssBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="29" column="88" lean-forward="false" selection-start-line="29" selection-start-column="88" selection-end-line="29" selection-end-column="88" />
+        <state relative-caret-position="430">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev-master/web/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev-master/src/rssBundle/Resources/views/Default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="6" column="14" lean-forward="false" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev-master/src/loginBundle/loginBundle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev-master/src/loginBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="1" column="24" lean-forward="false" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev-master/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev-master/src/loginBundle/Resources/views/Default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev-master/src/loginBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
-            <element signature="e#40#85#0#PHP" expanded="true" />
-            <element signature="e#733#768#0#PHP" expanded="true" />
+            <element signature="e#44#101#0#PHP" expanded="true" />
+            <element signature="e#1087#1124#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
